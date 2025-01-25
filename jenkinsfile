@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('code and build') {
             steps {
-               git 'https://github.com/ramyachetty/maven-project-utils.git'
+               git 'https://github.com/imgroot05/web-app.git'
                sh 'mvn clean package'
             }
         }
